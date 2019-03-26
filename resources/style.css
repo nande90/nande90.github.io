@@ -1,21 +1,11 @@
 body {
-  background-color: #363531;
+  background-color: black;
 }
 
-.shadow {
-    display:block;
-    position:relative;
-}
-
-.shadow:before {
-    display:block;
-    content:'';
-    position:absolute;
-    width:700px;
-    height:700px;
-    -moz-box-shadow:inset 0px 0px 3px 1px rgba(0,0,0,1);
-    -webkit-box-shadow:inset 0px 0px 3px 1px rgba(0,0,0,1);
-    box-shadow:inset 0px 0px 3px 1px rgba(0,0,0,1);
+div {
+	border-style: solid;
+  	border-width: 5px;
+	-webkit-border-image: -webkit-gradient(linear, left top, left bottom, from(#363531), to(black), color-stop(0.5, black), color-stop(0.5, #66cc00)) 21 30 30 21 repeat repeat;
 }
 
 img {
