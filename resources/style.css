@@ -1,9 +1,8 @@
 body {
-  background-color: powderblue;
+  background-color: black;
 }
-h1 {
-  color: blue;
-}
-p {
-  color: red;
+
+img {
+	width:128px;
+	eight:128px;
 }
